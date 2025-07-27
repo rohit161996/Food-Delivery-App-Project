@@ -1,29 +1,80 @@
-# Foodingo App - ReactJS
-- Swiggy APIs Used
+# 🍔 **Foodingo App – ReactJS**
 
-## 1. Main Page
+> A modern food delivery UI inspired by Swiggy. Built using **ReactJS** with live Swiggy APIs, lazy loading, dynamic routing, and reusable components.
+
+---
+
+## 🚀 Features
+- 🍽️ Dynamic restaurant & menu rendering
+- 🛒 Cart functionality with Redux
+- 💡 Shimmer UI placeholders while loading
+- 🔁 Lazy-loaded Grocery page with Suspense
+- 🧭 Client-side routing with React Router
+- 🧑‍🤝‍🧑 User context using React Context API
+
+---
+
+## 📸 **App Screenshots**
+
+---
+
+### 🏠 1. Main Page  
+Displays restaurant listings with header, search bar, and categories.
+
 ![Main Page](./images/MainPage.png)
 
-## 2. Main Page Shimmer UI
-![Main Page](./images/ShimmerMainPage.png)
+---
 
-## 3. Restaurant Item Page
+### 🔲 2. Main Page – Shimmer UI  
+Shown while restaurants are being fetched.
+
+![Main Page Shimmer](./images/ShimmerMainPage.png)
+
+---
+
+### 🍽️ 3. Restaurant Menu Page  
+Accordion-style menu with categories.
+
 ![Restaurant Items Page](./images/RestaurantItemsMain.png)
 
-## 4. Restaurant Items Page Shimmer UI
-![Restaurant Items Shimmer Page](./images/RestaurantItemsShimmer.png)
+---
 
-## 5.Restaurant Items Page Open
-![ Restaurant Items Open Page](./images/RestaurantItems.png)
+### 💡 4. Restaurant Menu – Shimmer UI  
+Loading placeholder before menu is rendered.
 
-## 6. Cart Page
+![Restaurant Shimmer](./images/RestaurantItemsShimmer.png)
+
+---
+
+### 📂 5. Restaurant Items – Category Open  
+Category expanded showing menu items.
+
+![Restaurant Items Open](./images/RestaurantItems.png)
+
+---
+
+### 🛍️ 6. Cart Page  
+Displays all items added to cart with quantity control.
+
 ![Cart Page](./images/CartPage.png)
 
-## 7. About Us Page
-![About Us Page](./images/AboutUs.png)
+---
 
-## 8. Contact Us Page
-![Contact Us Page](./images/ContactUsPage.png)
+### 👤 7. About Us Page  
+Basic information about the application.
 
-## 9. Grocery Page
-![Grocery Page Lazy Loading](./images/GroceryPageLazyLoading.png)
+![About Us](./images/AboutUs.png)
+
+---
+
+### 📞 8. Contact Us Page  
+Shows a simple contact information section or form.
+
+![Contact Us](./images/ContactUsPage.png)
+
+---
+
+### 🥦 9. Grocery Page (Lazy Loaded)  
+Demonstrates lazy loading using `React.lazy()` and `Suspense`.
+
+![Grocery Page](./images/GroceryPageLazyLoading.png)
